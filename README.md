@@ -36,3 +36,24 @@ added all the internal wiring left. Now i dont have any wires left lol. that is 
 
 ### after
 ![pic5](https://github.com/user-attachments/assets/4daf0673-32a0-4b5f-aeec-0020deef43fe)
+
+
+## session3:
+in this session, i'll be testing the ALU and writing how it works in detail. 
+The ALU is working fine
+
+### video
+[YT timelapse of build](https://www.youtube.com/watch?v=xTb6hE4NxM8)
+
+## working
+this ALU comprises of 2 74LS283's and 2 74LS86's. the 74LS283 is a full adder and the 74LS86 is the XOR gate ic. The data on register A is always inputted into the ALU, which is the same case for register B but the data from register B is first fed into the XOR gates then the Adders. This is because it is the way to subtract using two's complement. the first input of XOR is from register B and the second is an input called "SUB". when sub is on, all the bits are inverted. and also, SUB is fed into the carry in of the first adder. both the adders are connected by carry. carry out of first is fed into carry in of second. this leads to subtraction of the numbers. and they get added when SUB is turned off. SUB will be controlled by the control lines when the computer is fully built. 
+
+### images
+![pic6](https://github.com/user-attachments/assets/4c81ae47-918f-4e9f-9549-55c0ba6b99a5)
+
+![pic7](https://github.com/user-attachments/assets/c0c00995-23ae-4be9-9761-87509a4813f3)
+
+LSB means Least significant bit while MSB means most significant bit. in 10, LSB is 0 while 1 is MSB. in 10111111, MSB and LSB both are 1.
+(The output LEDs for the adders are not in LINE as the Registers because i was out of wires so i was not able to connect them to the Buffer IC, 74HC245)
+the lines made by me show the decreasing significance of bits. 
+That's all. Thank you for reading....

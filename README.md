@@ -3,7 +3,7 @@ ALU-for-8-bit-computer
 hey, i started this project a long time ago, before joining slack, and left it in the middle, but now, i am rebuilding it. I had already built: clock, program counter, 2 registers. now, i'll be continuing to build it, starting with the ALU. 
 
 this design is based on the albert paul mavino and ben eater design. 
-please note that connecting wires, each of which ismade exactly as long as it needs to be, is a time taking process.
+please note that connecting wires, each of which is made exactly as long as it needs to be, is a time taking process.so, even if i had added only few wires, it took a long time to do so.
 
 session 1: 
 wired the ALU chips, 74ls283 and 74ls86. 4 bit full adder and 4 XOR gates, to the Registers(A and B). now, internal wiring of ALU is left which is for the next session. some pictures and a video are attached below.

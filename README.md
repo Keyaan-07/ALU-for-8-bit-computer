@@ -1,6 +1,6 @@
 # ALU-for-8-bit-computer
 ALU-for-8-bit-computer
-hey, i started this project a long time ago, before joining slack, and left it in the middle, but now, i am rebuilding it. I had already built: clock, program counter, 2 registers. now, i'll be continuing to build it, starting with the ALU. 
+hey, i started this project a long time ago, before joining slack, and left it in the middle, but now, i am rebuilding it. I had already built: clock, program counter, 2 registers. now, i'll be continuing to build it, starting with the ALU. I also hope to build the RAM, control circuit, display, in the coming time
 
 this design is based on the albert paul mavino and ben eater design. It only has addition and subtraction functions because it is a very basic(SAP-1) computer.
 please note that connecting wires, each of which is made exactly as long as it needs to be, is a time taking process.so, even if i had added only few wires, it took a long time to do so.
